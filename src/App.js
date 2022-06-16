@@ -162,17 +162,17 @@ function App() {
         setApi("Phala", api_phala);
 
 
-        const { api: api_Rococo_Karura } = await setup_SubstrateChain("Rococo_Karura");
-        // console.log("api_Rococo_Karura: ",api_Rococo_Karura);
-        setApi("Rococo_Karura", api_Rococo_Karura);
+        // const { api: api_Rococo_Karura } = await setup_SubstrateChain("Rococo_Karura");
+        // // console.log("api_Rococo_Karura: ",api_Rococo_Karura);
+        // setApi("Rococo_Karura", api_Rococo_Karura);
 
-        const { api: api_Rococo_Basilisk } = await setup_SubstrateChain("Rococo_Basilisk");
-        // console.log("api_Rococo_Basilisk: ",api_Rococo_Basilisk);
-        setApi("Rococo_Basilisk", api_Rococo_Basilisk);
+        // const { api: api_Rococo_Basilisk } = await setup_SubstrateChain("Rococo_Basilisk");
+        // // console.log("api_Rococo_Basilisk: ",api_Rococo_Basilisk);
+        // setApi("Rococo_Basilisk", api_Rococo_Basilisk);
 
-        const { api: api_Rococo_Phala } = await setup_SubstrateChain("Rococo_Phala");
-        // console.log("api_Rococo_Phala: ",api_Rococo_Phala);
-        setApi("Rococo_Phala", api_Rococo_Phala);
+        // const { api: api_Rococo_Phala } = await setup_SubstrateChain("Rococo_Phala");
+        // // console.log("api_Rococo_Phala: ",api_Rococo_Phala);
+        // setApi("Rococo_Phala", api_Rococo_Phala);
 
         console.log("api_kusama.consts.balances.existentialDeposit : ",api_kusama.consts.balances.existentialDeposit.toString());             
         console.log("api_moonriver.consts.balances.existentialDeposit : ",api_moonriver.consts.balances.existentialDeposit.toNumber());            

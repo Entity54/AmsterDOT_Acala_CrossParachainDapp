@@ -218,7 +218,7 @@ const DEX = ({ setupSpecs, relaySpecs, karuraAlphaSpecs, blockHeader, accountLis
 														Kusama
 													</Nav.Link>
 												</Nav.Item>
-										        <Nav.Item as="li">
+										        {/* <Nav.Item as="li">
 													<Nav.Link eventKey="Rococo" onClick={() => {
 															setEcosystem("Rococo");
 															resetAll();
@@ -227,7 +227,7 @@ const DEX = ({ setupSpecs, relaySpecs, karuraAlphaSpecs, blockHeader, accountLis
 														<i className={`la la-home me-2`} />
 														Rococo
 													</Nav.Link>
-												</Nav.Item>
+												</Nav.Item> */}
 										</Nav> 
 
 										<Tab.Content className="pt-4">
@@ -239,13 +239,13 @@ const DEX = ({ setupSpecs, relaySpecs, karuraAlphaSpecs, blockHeader, accountLis
 												/>
 											</Tab.Pane>
 
-											<Tab.Pane eventKey="Rococo">
+											{/* <Tab.Pane eventKey="Rococo">
 												<BasiliskUI resetState={resetState} selectedActionfunction={selectedActionfunction}
 													resetTargetAccount={resetTargetAccount} destinationChainSelected={destinationChainSelected} originChainSelected={originChainSelected} selectedDestinationChainfunction={selectedDestinationChainfunction} selectedOriginChainfunction={selectedOriginChainfunction} selectedTokenfunction={selectedTokenfunction} setupSpecs={setupSpecs} 
 													accountList={accountList} blockHeader={blockHeader} 
 													rococoBalancesBSX={rococoBalancesBSX} rococoBalancesPHA={rococoBalancesPHA} 
 												/>
-											</Tab.Pane>
+											</Tab.Pane> */}
 
 											<Tab.Pane eventKey="Polkadot">
 												<h4>Work in Progress</h4>
