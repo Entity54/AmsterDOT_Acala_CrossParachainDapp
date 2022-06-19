@@ -80,7 +80,12 @@ Any future versions will accomodate responsive frameworks + mobile.
 
 ### Demo Video
 ***
-<p> A demo video can be found at ******** TODO ******** </p>
+<p> A demo video can be found 
+<a href="https://www.dropbox.com/s/aqhthho72iugi37/Acala%20Cross-Parachain%20DApp%20Demo.mp4?dl=0" target="_blank">here</a>
+to demonstrate the many features of our XCM application. Please check it out!
+
+
+</p>
 <br>
 
 ### Installation
@@ -174,6 +179,8 @@ On the right side of the screen:
 * The "Origin Chain" field is automatically prefilled with the selection, "Karura".
 * The correct address format of the user's substrate account for the chosen origin chain is prefilled. 
 * The maximum available balance of the selected asset at the chosen Origin chain is prefilled in the quantity field. The user can of course edit this if they wish to transfer a different amount.
+
+We will transfer 5 AUSD.
 
 Meanwhile on the left side of the screen, a check is made and the remaining tabs on the row of the selected asset will only remain visible depending on whether the relevant HRMP channel is available or not to transfer the selected asset.
 The reason for this is that currently some parachains do not support receiving "secondary" or "non-native" assets. 
